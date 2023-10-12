@@ -1,2 +1,4 @@
-# S206-L1-Alvaro-Lucio-Almeida-Ribeiro
-Repositório para Armazenamento dos Relatórios de Qualidade de Software - Laboratório
+# 💻 Este repositório é destinado ao curso de S206L1 - Qualidade de Software
+
+- Nome: Álvaro Lúcio Almeida Ribeiro
+- Matrícula: 163
