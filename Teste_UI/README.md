@@ -1,4 +1,24 @@
-# 💻 Este repositório é destinado ao curso de S206L1 - Qualidade de Software
+# Lista de Exercício - Teste de UI (User Interface) com cypress
+
+# 💻 Foram desenvolvidos os seguintes testes: 
+
+- [x] Aceitando os termos de cookie do Site
+- [x] Cadastrando um imovel com sucesso
+- [x] Cadastrando um imovel com falha (faltando telefone) 
+- [x] Selecionando bairro Anchieta e Pesquisando
+- [x] Encomendando um imovel 
+- [x] Realizando login incorreto (Não possui acesso ao sistema)
+- [x] Selecionando Facebook para ver funciona 
+
+# ⚙️ Modo de Funcionamento: 
+
+Rodar specs pela linha de comando:
+```
+    ./node_modules/.bin/cypress run --spec 'cypress/e2e/**/'
+```
+
+Para acessar o HMTL:
+./reports/index.html
 
 # 👨🏻‍💻 Desenvolvido por: 
 
