@@ -21,6 +21,16 @@ Scenario: Testando retorno Pikachu e verificando o JSON.
     And match response.name == "pikachu"
     And match response.id == 25
 
+Scenario: Testing API response for Pikachu and verifying JSON
+    Given url url_base
+    And path 'pokemon/ditto'
+    When method get
+    Then status 200
+    And match response.name == "ditto"
+    And match response.base_experience == 101
+    And def abilityName = response.abilities[1].name
+    And print abilityName
+
 Scenario: Testando retorno Pokemom Rede e um dos elementos do array de idiomas e testando o retorno JSON.
     Given url url_base 
     And path '/version/1/'
